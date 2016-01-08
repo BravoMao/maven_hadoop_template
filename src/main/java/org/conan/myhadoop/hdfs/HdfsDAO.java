@@ -34,7 +34,6 @@ public class HdfsDAO {
         JobConf conf = config();
         HdfsDAO hdfs = new HdfsDAO(conf);
 //        hdfs.copyFile("datafile/item.csv", "/tmp/new");
-//        hdfs.ls("/tmp/new");
         hdfs.rename("/user/hdfs/pagerank/tmp3", "/user/hdfs/pagerank/tmp4");
     }
 
